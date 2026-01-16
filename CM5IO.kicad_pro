@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 2.7,
-          "width": 2.7
+          "drill": 0.0,
+          "height": 3.048,
+          "width": 2.413
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.39
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -61,39 +61,59 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|139230000|150500000|44050c2e-137a-4ee5-aab6-af6e82cb550c|c1309054-b3ec-4f1e-9334-00cba6baa146",
+          "courtyards_overlap|147698760|133891000|7656338f-4d8f-4e5d-b77b-f8fa6ade0d22|fd500771-7052-40e1-ac1d-5839a1fedf7d",
           ""
         ],
         [
-          "clearance|140500000|149230000|fcebfa8a-eb3d-4196-9404-532dc9ddde9f|c1309054-b3ec-4f1e-9334-00cba6baa146",
+          "courtyards_overlap|154472000|139185000|7a5bad93-1a0a-40cd-8f83-3ac4a1732f36|fd500771-7052-40e1-ac1d-5839a1fedf7d",
           ""
         ],
         [
-          "clearance|140920000|151770000|40ece557-24f2-47a4-bf57-058580957d62|44050c2e-137a-4ee5-aab6-af6e82cb550c",
+          "lib_footprint_mismatch|153039500|130881000|49b763e4-e3d9-4586-b313-553e33141ad0|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "clearance|141770000|150920000|40ece557-24f2-47a4-bf57-058580957d62|fcebfa8a-eb3d-4196-9404-532dc9ddde9f",
+          "lib_footprint_mismatch|155342500|130500000|6c147f5d-001f-44bf-a96d-3521018699f6|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "clearance|146205000|147060000|cf9a04ac-e742-4cc4-b820-74b94e875632|fd267553-ab4f-45b2-b9de-3fd8c755208d",
+          "lib_footprint_mismatch|186408000|86548000|600f3bb4-c03d-4654-90fa-6ba7294c7d9d|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "clearance|159795000|147060000|386d8066-f8d7-448e-8535-fb964d94eab0|49b00fb2-fbf7-4862-ac04-916c407cd0f2",
+          "lib_footprint_mismatch|198485000|84018000|00000000-0000-0000-0000-00005e6aa340|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "clearance|159975000|145410000|029ebbb9-b02f-45bd-96ed-01f4d0ed11f9|8cfd9587-a6c9-4a80-b337-75a1568e78eb",
+          "lib_footprint_mismatch|202425000|117287000|00000000-0000-0000-0000-00005d2e9306|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "clearance|163003858|146776424|49b00fb2-fbf7-4862-ac04-916c407cd0f2|a2c51ef8-4a45-4b19-8a83-e2fa4ed59648",
+          "pth_inside_courtyard|150477000|136596000|dc427846-c4f1-4acd-b3d7-2fd34af350f4|7656338f-4d8f-4e5d-b77b-f8fa6ade0d22",
           ""
         ],
         [
-          "courtyards_overlap|124745000|104425000|00000000-0000-0000-0000-00005d2e9306|00000000-0000-0000-0000-00005e42b6ed",
+          "pth_inside_courtyard|150477000|141676000|0a58e786-4f9c-4554-9a9c-6cc9157f3dee|7a5bad93-1a0a-40cd-8f83-3ac4a1732f36",
+          ""
+        ],
+        [
+          "silk_over_copper|147382000|144216000|d44fdc76-ede4-42d3-a7ad-c93fdfd6370e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|153017000|139430000|b691f1b4-b85a-465f-98e9-93eb74b72c39|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|154287000|134056000|cbed4df2-e9d0-486b-84e5-2d16aa9066e4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|154287000|139430000|06c2d695-cac5-4799-a85d-3e7792466431|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|171456500|125000000|2313165d-389d-43b2-a02f-30e40f5ef022|c215329b-0187-40f3-8266-ce7b69fbbc80",
           ""
         ]
       ],
@@ -628,23 +648,6 @@
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 1.0,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.13,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "POE TAPS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -670,7 +673,7 @@
         "pattern": "/CM5_HighSpeed/HDMI*_CK*"
       },
       {
-        "netclass": "POE TAPS",
+        "netclass": "Default",
         "pattern": "/CM5_GPIO ( Ethernet, GPIO, SDCARD)/TR*_TAP"
       },
       {
@@ -688,6 +691,22 @@
       {
         "netclass": "90R",
         "pattern": "/USB2*"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/LoRa/ESP_USB2_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/LoRa/ESP_USB2_P"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LoRa/ADDR32"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LoRa/ADDR1"
       }
     ]
   },
@@ -708,7 +727,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "CM5IO.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -806,6 +825,60 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -882,8 +955,8 @@
       "CM5_GPIO ( Ethernet, GPIO, SDCARD)"
     ],
     [
-      "00000000-0000-0000-0000-00005ed4bb5b",
-      "PCIe-M2"
+      "448c80b4-5b88-47b0-9a11-edd6014e6d44",
+      "PSU"
     ]
   ],
   "text_variables": {}
