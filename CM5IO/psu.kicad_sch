@@ -3202,7 +3202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tantalum, Kemet-B, 10uF@25V min."
+		(property "Description" "Tantalum, Kemet-B, 10uF@35V min."
 			(at 101.6 83.82 0)
 			(effects
 				(font
