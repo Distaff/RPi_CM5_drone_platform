@@ -4404,6 +4404,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -7202,6 +7402,16 @@
 		)
 		(uuid "26499fda-28f0-49df-ae6e-bde6da76eedc")
 	)
+	(text "R2 : Pullup added for Fans that don't \nhave a strong internal pullup "
+		(exclude_from_sim no)
+		(at 250.698 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b8866af-0eb1-476a-aabd-5c31aefb4728")
+	)
 	(text "Activity LED"
 		(exclude_from_sim no)
 		(at 119.634 25.4 0)
@@ -7255,6 +7465,17 @@
 			(justify left bottom)
 		)
 		(uuid "e4a9ddd8-7ada-440b-a9de-a5d7da8f72b2")
+	)
+	(text "FAN connector\n"
+		(exclude_from_sim no)
+		(at 231.775 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f98ac26a-f3b7-4233-b24d-81b3dd9f85cd")
 	)
 	(text "CM5Lite SDCARD I/F"
 		(exclude_from_sim no)
@@ -7695,6 +7916,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 128.27) (xy 238.76 128.27)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0b3f8888-7642-4ab8-bec0-7e6459cff35c")
+	)
+	(wire
+		(pts
 			(xy 165.1 52.07) (xy 176.53 52.07)
 		)
 		(stroke
@@ -7832,6 +8063,16 @@
 			(type default)
 		)
 		(uuid "11e805eb-51b3-4186-98bd-1209bf47a02e")
+	)
+	(wire
+		(pts
+			(xy 238.76 133.35) (xy 237.49 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13508b9f-3c03-4f94-9b2e-c9a6752c2274")
 	)
 	(wire
 		(pts
@@ -8275,6 +8516,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 114.3) (xy 224.79 113.03)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4505dfd5-dca1-4d51-b40f-9e0c7e2c6284")
+	)
+	(wire
+		(pts
 			(xy 39.37 29.21) (xy 38.1 29.21)
 		)
 		(stroke
@@ -8415,6 +8666,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 133.35) (xy 237.49 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510dff8b-1785-40b5-9822-d08a54055a9c")
+	)
+	(wire
+		(pts
 			(xy 24.13 49.53) (xy 39.37 49.53)
 		)
 		(stroke
@@ -8522,6 +8783,16 @@
 			(type solid)
 		)
 		(uuid "609c03aa-db26-47fb-b858-1a8c9396360a")
+	)
+	(wire
+		(pts
+			(xy 224.79 113.03) (xy 220.98 113.03)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6248d70f-94bd-415e-973f-2a8a119b861e")
 	)
 	(wire
 		(pts
@@ -8772,6 +9043,16 @@
 			(type solid)
 		)
 		(uuid "83b67fed-504b-48ca-af49-15e931434ca8")
+	)
+	(wire
+		(pts
+			(xy 224.79 130.81) (xy 238.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841ba2f7-e53f-4667-aacc-b91dad71b6b7")
 	)
 	(wire
 		(pts
@@ -9055,6 +9336,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 121.92) (xy 224.79 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05ebaba-6026-4585-976f-d2c67ab34e9e")
+	)
+	(wire
+		(pts
 			(xy 25.4 118.11) (xy 39.37 118.11)
 		)
 		(stroke
@@ -9252,6 +9543,16 @@
 			(type solid)
 		)
 		(uuid "b7378d4f-15e7-48c2-b38c-9dd31063481b")
+	)
+	(wire
+		(pts
+			(xy 227.33 135.89) (xy 238.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b7e6c4d0-2141-47bd-b7c4-fdef233579f2")
 	)
 	(wire
 		(pts
@@ -10033,6 +10334,16 @@
 		)
 		(uuid "ff54cdc2-4b40-4994-8140-ac296a31bdc0")
 	)
+	(label "PWM"
+		(at 227.965 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00fab859-d7ed-469c-bd30-b20966ed9369")
+	)
 	(label "+1.8v"
 		(at 148.59 95.25 180)
 		(effects
@@ -10062,6 +10373,16 @@
 			(justify right bottom)
 		)
 		(uuid "02c86f21-caef-4fbc-95b0-d828a7114318")
+	)
+	(label "+5v"
+		(at 228.6 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04f0c7f7-6ef4-416c-83a3-7cf9b60eb4ab")
 	)
 	(label "+5v"
 		(at 170.18 24.13 180)
@@ -10863,6 +11184,16 @@
 		)
 		(uuid "a9aa017c-179c-484a-a123-f23c1753977f")
 	)
+	(label "+3.3v"
+		(at 224.79 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac13c5bf-793a-4b17-b549-f9d651f27a58")
+	)
 	(label "GPIO26"
 		(at 24.13 49.53 0)
 		(effects
@@ -11072,6 +11403,16 @@
 			(justify left bottom)
 		)
 		(uuid "dfcf21ae-fd3c-40b2-9ae0-524856d8c6da")
+	)
+	(label "TACHO"
+		(at 227.33 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0a274f0-5b83-47be-864e-b9dd6d34c2ad")
 	)
 	(label "GPIO13"
 		(at 148.59 64.77 180)
@@ -14024,6 +14365,126 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 243.84 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6aeabf3a-c9eb-43e4-983c-5a4d5e9c1160")
+		(property "Reference" "J14"
+			(at 241.935 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_SHBM04B-SRSS-TB"
+			(at 241.3 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "SHBM04B-SRSS-TB"
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "SHBM04B-SRSS-TB"
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "JST"
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "4 pin vertical 1mm pitch connector"
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d9421e1-a748-4fa7-a9dc-d87a661c0564")
+		)
+		(pin "2"
+			(uuid "efe0c997-9709-4e54-b9b3-bef7f7d6baa0")
+		)
+		(pin "3"
+			(uuid "9b97d13a-bfc1-499e-9b09-38ac7754ef2f")
+		)
+		(pin "4"
+			(uuid "425a3672-f282-4190-91cf-6eed05366832")
+		)
+		(instances
+			(project "CM5IO"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 71.12 175.26 270)
 		(unit 1)
@@ -14123,6 +14584,71 @@
 			(project "CM5IO"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "723f8ff7-a007-44fe-b1a7-c58e7d1e8249")
+		(property "Reference" "#PWR014"
+			(at 237.49 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.617 145.3642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d224dfb4-89c4-4217-b9ae-1add63edcebc")
+		)
+		(instances
+			(project "CM5IO"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14420,6 +14946,120 @@
 			(project "CM5IO"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 224.79 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c672e2f7-0b14-4e8f-be30-ae2f2ea76f84")
+		(property "Reference" "R11"
+			(at 226.568 116.9416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K 1%"
+			(at 226.568 119.253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 223.012 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "Farnell"
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "Rohm"
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "MCR01MZPF1002"
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor 10K M1005 1% 63mW"
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "959a9d44-be47-43ab-bbcf-240b1bf4f077")
+		)
+		(pin "2"
+			(uuid "520632a1-bb50-4bb8-9c08-78b37d8d5a95")
+		)
+		(instances
+			(project "CM5IO"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "R11")
 					(unit 1)
 				)
 			)
