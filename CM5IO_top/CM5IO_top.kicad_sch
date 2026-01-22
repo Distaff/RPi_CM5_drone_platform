@@ -8147,7 +8147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c7d9f1f-b09f-4494-b700-4c53b530b292")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 236.22 55.88 0)
 			(effects
 				(font
@@ -8248,7 +8248,7 @@
 		(instances
 			(project "CM5IO_top"
 				(path "/45032d28-0209-4e67-a308-47ee4cd3805e"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9093,7 +9093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed052d4b-ca69-418f-bf53-65390774bd8f")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 236.22 29.21 0)
 			(effects
 				(font
@@ -9200,7 +9200,7 @@
 			)
 			(project ""
 				(path "/45032d28-0209-4e67-a308-47ee4cd3805e"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
