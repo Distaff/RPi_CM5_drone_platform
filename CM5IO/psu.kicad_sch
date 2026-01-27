@@ -3184,7 +3184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_HandSolder"
 			(at 101.6 83.82 0)
 			(effects
 				(font
@@ -3202,7 +3202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tantalum, Kemet-B, 10uF@35V min."
+		(property "Description" "Tantalum, Kemet-C, 10uF@35V min."
 			(at 101.6 83.82 0)
 			(effects
 				(font

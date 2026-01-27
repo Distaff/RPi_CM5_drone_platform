@@ -6784,6 +6784,17 @@
 		)
 		(uuid "c7aa973f-9a43-402a-907c-ceac197a1829")
 	)
+	(text "Originally 6.3V tantalum. Use 10V to be sure.\n"
+		(exclude_from_sim no)
+		(at 267.716 159.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e08ff7c4-e6b8-4c70-b928-5e4b8cbbc068")
+	)
 	(junction
 		(at 148.59 33.02)
 		(diameter 1.016)
