@@ -77,6 +77,10 @@
           ""
         ],
         [
+          "lib_footprint_mismatch|163011900|113205201|e2e184d1-cf5d-410f-836f-3855119abde2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|179000000|97500000|da7354e6-b8a5-44f7-9093-ef24f7b11b44|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -198,7 +202,7 @@
         "max_error": 0.005,
         "min_clearance": 0.125,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.01,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.19,
         "min_hole_to_hole": 0.24,
@@ -651,14 +655,6 @@
         "pattern": "/CM5_HighSpeed/HDMI*_CK*"
       },
       {
-        "netclass": "Default",
-        "pattern": "/CM5_GPIO ( Ethernet, GPIO, SDCARD)/TR*_TAP"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM5_GPIO ( Ethernet, GPIO, SDCARD)/TRD*"
-      },
-      {
         "netclass": "90R",
         "pattern": "/CM5_HighSpeed/PCIE_*X_*"
       },
@@ -669,22 +665,6 @@
       {
         "netclass": "90R",
         "pattern": "/USB2*"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/LoRa/ESP_USB2_N"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/LoRa/ESP_USB2_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/LoRa/ADDR32"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/LoRa/ADDR1"
       }
     ]
   },
