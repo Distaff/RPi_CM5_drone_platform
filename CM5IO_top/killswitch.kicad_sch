@@ -860,11 +860,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Solder pulldown to \ndisable automatic \nstartup of PSU"
+		(exclude_from_sim no)
+		(at 119.888 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e051633-8195-4f6b-9f4f-451723bc99f7")
+	)
 	(junction
 		(at 95.25 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b8e0cb9-3502-45ee-8b6c-926b21010660")
+	)
+	(junction
+		(at 115.57 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e63873b-b4e3-4999-b4aa-e130836758f4")
 	)
 	(junction
 		(at 95.25 67.31)
@@ -990,6 +1007,26 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 115.57) (xy 123.19 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2550d9ff-01ce-48cb-9208-64829e235f05")
+	)
+	(wire
+		(pts
+			(xy 115.57 135.89) (xy 115.57 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b2d54b-7282-45d3-b30f-7519eaba38ac")
+	)
+	(wire
+		(pts
 			(xy 77.47 80.01) (xy 80.01 80.01)
 		)
 		(stroke
@@ -1000,7 +1037,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 115.57) (xy 113.03 115.57)
+			(xy 109.22 115.57) (xy 115.57 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1077,6 +1114,16 @@
 			(type default)
 		)
 		(uuid "85a99b49-d8a7-4e91-9e6b-288de323ea53")
+	)
+	(wire
+		(pts
+			(xy 115.57 151.13) (xy 95.25 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91517b88-afb4-4c40-bdbd-dc89b04fd290")
 	)
 	(wire
 		(pts
@@ -1220,6 +1267,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 115.57) (xy 115.57 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec37202-8d04-4e3b-804c-d8ad1333a9e9")
+	)
+	(wire
+		(pts
 			(xy 143.51 80.01) (xy 143.51 82.55)
 		)
 		(stroke
@@ -1314,7 +1371,7 @@
 	)
 	(hierarchical_label "PSU_EN_CTL"
 		(shape output)
-		(at 113.03 115.57 0)
+		(at 123.19 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1908,6 +1965,73 @@
 			(project "CM5IO_top"
 				(path "/45032d28-0209-4e67-a308-47ee4cd3805e/73c647b5-bc1b-4f18-9452-dba8bbf7e1d4"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 115.57 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1e85bd1-92f3-4848-90e3-a219502a8b8f")
+		(property "Reference" "R16"
+			(at 117.856 132.588 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 117.856 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 115.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "939318fa-a4c8-4c4e-90ac-ffc6a4f7b16a")
+		)
+		(pin "2"
+			(uuid "5003bf42-def9-4ad6-b66a-de46e9cf1963")
+		)
+		(instances
+			(project "CM5IO_top"
+				(path "/45032d28-0209-4e67-a308-47ee4cd3805e/73c647b5-bc1b-4f18-9452-dba8bbf7e1d4"
+					(reference "R16")
 					(unit 1)
 				)
 			)

@@ -5729,8 +5729,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
-		(at 38.1 62.23 0)
-		(mirror y)
+		(at 35.56 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5738,7 +5737,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dd3ddee")
 		(property "Reference" "J8"
-			(at 29.21 36.83 0)
+			(at 44.45 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,8 +5752,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
-			(at 38.1 62.23 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
+			(at 35.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5762,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.toby.co.uk/uploads/publications/1673.pdf"
-			(at 38.1 62.23 0)
+			(at 35.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 62.23 0)
+			(at 35.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +5780,7 @@
 			)
 		)
 		(property "Field4" "Toby"
-			(at 38.1 62.23 0)
+			(at 35.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5789,7 @@
 			)
 		)
 		(property "Field5" "THD-20-R"
-			(at 38.1 62.23 0)
+			(at 35.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5798,7 @@
 			)
 		)
 		(property "Field6" "THD-20-R"
-			(at 38.1 62.23 0)
+			(at 35.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5807,7 @@
 			)
 		)
 		(property "Field7" "Toby"
-			(at 38.1 62.23 0)
+			(at 35.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +5816,7 @@
 			)
 		)
 		(property "Field8" "UCON00511"
-			(at 38.1 62.23 0)
+			(at 35.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +5825,7 @@
 			)
 		)
 		(property "Part Description" "PinHeader_2x20_P2.54mm_Vertical"
-			(at 38.1 62.23 0)
+			(at 35.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,7 +7079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left"
 			(at 40.64 29.21 0)
 			(effects
 				(font
@@ -7948,7 +7947,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 25v"
+		(property "Value" "4.7uF 35v"
 			(at 214.63 68.58 0)
 			(effects
 				(font
@@ -8349,7 +8348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 25v"
+		(property "Value" "4.7uF 35v"
 			(at 214.63 41.91 0)
 			(effects
 				(font
@@ -8675,7 +8674,7 @@
 		(dnp no)
 		(uuid "c135ffb1-e908-475b-9dc5-2ec9a1fd7c89")
 		(property "Reference" "C6"
-			(at 251.968 66.04 0)
+			(at 251.206 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,8 +8682,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 6.3v"
-			(at 258.572 68.58 0)
+		(property "Value" "4.7uF 10v"
+			(at 258.318 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8766,8 +8765,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 6.3v"
-			(at 258.572 41.91 0)
+		(property "Value" "4.7uF 10v"
+			(at 258.064 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
